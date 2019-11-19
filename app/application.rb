@@ -32,4 +32,10 @@ class Application
       return "Couldn't find #{search_term}"
     end
   end
+  
+  def check_cart
+    if !@@cart.empty?
+      
+    end
+  end
 end
